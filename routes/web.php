@@ -18,4 +18,6 @@ Route::get('/', function () {
 Route::get('book', function () {
     return 'HELLO';
 });
-Route::get('/', 'IndexController@showBookList'); //Имя класса контроллера@имя метода класса
+Route::get('/', 'IndexController@index'); //Имя класса контроллера@имя метода класса
+
+//Route::get('/', 'IndexController@showBookList'); //Имя класса контроллера@имя метода класса
